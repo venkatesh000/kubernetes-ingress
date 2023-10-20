@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: nginx-ingress
-  namespace: nginx-ingress
+  namespace: nginx-ingress-acquiring
 spec:
   selector:
     matchLabels:
